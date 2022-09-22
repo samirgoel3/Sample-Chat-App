@@ -1,0 +1,35 @@
+.box{
+    width: 80%;
+    /* border: 1px solid #333; */
+    text-align: end;
+    color: white;
+    font-weight: 700;
+}
+
+.heading{
+    font-size: 50px;
+    letter-spacing: 2;
+    margin: 0px;
+}
+
+.sub-heading{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 500px) {
+
+    .heading{
+        font-size: 25px;
+    }
+
+}
+
+.description{
+    text-align: center;
+    align-self: center;
+    font-size: 11px;
+    color: white;
+    font-weight: 300;
+}
+
